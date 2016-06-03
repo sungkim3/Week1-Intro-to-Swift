@@ -7,9 +7,10 @@
 * Write examples for **union, intersect, subtract, exclusive** Or set operations
 
 ###Reading Assignment
-* Arrays
-* Dictionaries
-* Sets
+* Swift Programming Guide
+  * Arrays
+  * Dictionaries
+  * Sets
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

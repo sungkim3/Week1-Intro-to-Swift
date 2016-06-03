@@ -13,9 +13,13 @@
 * Test your app!
 
 ###Reading Assignment
-* Error Handling
-* Generics
-* Functional Programming
+* Swift Programming Guide
+  * Enums
+  * Properties
+  * Methods
+  * Error Handling
+  * Generics
+  * Functional Programming
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)

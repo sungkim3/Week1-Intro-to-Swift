@@ -6,13 +6,14 @@
 * Extend ToDo protocol to provide basic implementation for certain functions.
 
 ###Reading Assignment
-* Structures
-* Classes
-* Enumerations
-* Properties
-* Methods
-* Protocols
-* Protocol-oriented Programming
+* Swift Programming Guide
+  * Structures
+  * Classes
+  * Enumerations
+  * Properties
+  * Methods
+  * Protocols
+  * Protocol-oriented Programming
 
 ##Other Resources
 * [Reading Assignments](../../Resources/ra-grading-standard/)
