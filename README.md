@@ -8,11 +8,11 @@
 
 
 ##Daily Breakdown
-#####[Class 1:](class-1) Variables, Numeric Types, Strings, Decisions, Functions, Closures, Optionals
-#####[Class 2:](class-2) Arrays, Dictionaries, Sets
-#####[Class 3:](class-3) Structures, Classes, Enums, Methods, Properties, POP
-#####[Class 4:](class-4) Error Handling, Generics, Functional Programming
-#####[Class 5:](class-5) Data Structures and Whiteboarding
+* [Class 1:](class-1) Variables, Numeric Types, Strings, Decisions, Functions, Closures, Optionals
+* [Class 2:](class-2) Arrays, Dictionaries, Sets
+* [Class 3:](class-3) Structures, Classes, Enums, Methods, Properties, POP
+* [Class 4:](class-4) Error Handling, Generics, Functional Programming
+* [Class 5:](class-5) Data Structures and Whiteboarding
 
 ##[Other Resources:](Resources/)
 * [Homework Grading Standard](Resources/hw-grading-standard/)
