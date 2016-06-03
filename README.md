@@ -5,7 +5,8 @@
 
 ##Week 1 Learning Objectives
 > Utilizing Playgrounds and Storyboards, students will begin to understand the basic, as well as some advanced, concepts of the Swift Programming language in order to create their first iOS application.
------
+
+
 ##Daily Breakdown
 #####[Class 1:](class-1) Variables, Numeric Types, Strings, Decisions, Functions, Closures, Optionals
 #####[Class 2:](class-2) Arrays, Dictionaries, Sets
