@@ -9,7 +9,6 @@
 
 ###Reading Assignment
 * Swift Programming Guide
-	* Coding Essentials & Playground Basics
 	* Variables & Constants
 	* Numeric Types & Operations
 	* Strings
