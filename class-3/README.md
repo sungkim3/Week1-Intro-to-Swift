@@ -12,9 +12,6 @@
 * Swift Programming Guide
   * Structures
   * Classes
-  * Enumerations
-  * Properties
-  * Methods
   * Protocols
   * Protocol-oriented Programming
 
