@@ -10,7 +10,7 @@
 * Make sure `typealias Object: BaseClass` also enforces `Object` to conform to `NSCoding` protocol
 * Add save function to `ObjectStoreProtocol`. Provide default implementation for simply writing array of objects to the filesystem
 * Modify Store `init {}` method to unarchive first. If `nil`, initialize objects array
-* Test your app 
+* Test your app
 
 ###Reading Assignment
 * Swift Programming Guide
@@ -25,4 +25,4 @@
 * [Reading Assignments](../../Resources/ra-grading-standard/)
 * [Grading Rubrics](../../Resources/)
 * [Lecture Resources](lecture/)
-* [Lecture Slides](https://www.icloud.com/keynote/000JUerxSU3TzRwdmzqgeE7wg#Week1_Day4)
+* [Lecture Slides](https://www.icloud.com/keynote/000U6vesUJwxPXIHFk2bnURYw#Week1_Day4)
