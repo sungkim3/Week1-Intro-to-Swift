@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14316FD31D0A0FEC0025173D /* Identity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14316FD21D0A0FEC0025173D /* Identity.swift */; };
+		14316FD51D0A100C0025173D /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14316FD41D0A100C0025173D /* ToDo.swift */; };
+		14316FD71D0A101E0025173D /* ObjectStoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14316FD61D0A101E0025173D /* ObjectStoreProtocol.swift */; };
+		14316FD91D0A10280025173D /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14316FD81D0A10270025173D /* Store.swift */; };
 		1CA2F70B1C3C2B6400757A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2F70A1C3C2B6400757A21 /* AppDelegate.swift */; };
 		1CA2F70D1C3C2B6400757A21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA2F70C1C3C2B6400757A21 /* HomeViewController.swift */; };
 		1CA2F7101C3C2B6400757A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA2F70E1C3C2B6400757A21 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14316FD21D0A0FEC0025173D /* Identity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Identity.swift; sourceTree = "<group>"; };
+		14316FD41D0A100C0025173D /* ToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		14316FD61D0A101E0025173D /* ObjectStoreProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectStoreProtocol.swift; sourceTree = "<group>"; };
+		14316FD81D0A10270025173D /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		1CA2F7071C3C2B6400757A21 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CA2F70A1C3C2B6400757A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CA2F70C1C3C2B6400757A21 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +69,10 @@
 				1CA2F7231C3DA3C700757A21 /* Model */,
 				1CA2F7221C3DA3BF00757A21 /* Protocol */,
 				1CA2F7261C3DA3FF00757A21 /* View */,
+				14316FD21D0A0FEC0025173D /* Identity.swift */,
+				14316FD41D0A100C0025173D /* ToDo.swift */,
+				14316FD61D0A101E0025173D /* ObjectStoreProtocol.swift */,
+				14316FD81D0A10270025173D /* Store.swift */,
 			);
 			path = ToDo;
 			sourceTree = "<group>";
@@ -178,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14316FD91D0A10280025173D /* Store.swift in Sources */,
 				1CA2F70D1C3C2B6400757A21 /* HomeViewController.swift in Sources */,
+				14316FD51D0A100C0025173D /* ToDo.swift in Sources */,
+				14316FD71D0A101E0025173D /* ObjectStoreProtocol.swift in Sources */,
 				1CA2F7281C3DB2C200757A21 /* NewItemViewController.swift in Sources */,
 				1CA2F70B1C3C2B6400757A21 /* AppDelegate.swift in Sources */,
+				14316FD31D0A0FEC0025173D /* Identity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

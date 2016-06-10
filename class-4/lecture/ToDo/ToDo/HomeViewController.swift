@@ -28,6 +28,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.didReceiveMemoryWarning()
     }
     
+
     // MARK: Helper Functions
     
     func configureCell(indexPath: NSIndexPath) -> UITableViewCell
@@ -36,6 +37,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         // Missing model.
         // Missing setup.
+        let toDo = Store.shared.allObjects()[indexPath.row]
+        cell.textLabel?.text = "\(toDo.taskItem)"
         
         return cell
     }
@@ -44,7 +47,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 0
+        return Store.shared.count()
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
@@ -64,10 +67,15 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         if editingStyle == .Delete {
             
             // Missing model.
+            let task = Store.shared.allObjects()[indexPath.row]
+            Store.shared.remove(task)
             
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
         }
     }
+    
+
+    
     
 }
 

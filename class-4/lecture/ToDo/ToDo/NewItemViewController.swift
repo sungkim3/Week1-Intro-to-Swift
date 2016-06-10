@@ -34,6 +34,10 @@ class NewItemViewController: UIViewController
         guard let description = self.todoTextField.text else { return }
         
         // Missing model.
+        if let taskItem = self.todoTextField.text {
+            let toDo = ToDo(taskItem: taskItem)
+            Store.shared.add(toDo)
+        }
         
         navigationController.popViewControllerAnimated(true)
     }

@@ -18,5 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     {
         return true
     }
+    
+    func applicationWillResignActive(application: UIApplication)
+    {
+        Store.shared.save(ToDo.ArchiveURL.path!)
+    }
 }
 
